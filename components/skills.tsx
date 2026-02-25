@@ -5,32 +5,22 @@ const skillCategories = [
   {
     icon: Code2,
     title: "Primary Language",
-    skills: [{ name: "Python", level: 95 }],
+    skills: ["Python"],
   },
   {
     icon: Terminal,
     title: "Programming Languages",
-    skills: [
-      { name: "React", level: 90 },
-      { name: "JavaScript", level: 90 },
-    ],
+    skills: ["React", "JavaScript"],
   },
   {
     icon: Globe,
     title: "Web Technologies",
-    skills: [
-      { name: "HTML", level: 95 },
-      { name: "CSS", level: 90 },
-    ],
+    skills: ["HTML", "CSS"],
   },
   {
     icon: Database,
     title: "Additional Skills",
-    skills: [
-      { name: "Git & Version Control", level: 90 },
-      { name: "Problem Solving", level: 95 },
-      { name: "Agile Development", level: 85 },
-    ],
+    skills: ["Git & Version Control", "Problem Solving", "Agile Development"],
   },
 ]
 
