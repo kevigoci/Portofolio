@@ -27,7 +27,7 @@ export function Navigation() {
   const handleDownloadCV = () => {
     // Create a link element and trigger download
     const link = document.createElement("a")
-    link.href = "/cv/Kevi CV.pdf"
+    link.href = "/Kevi CV.pdf"
     link.download = "Kevi CV.pdf"
     document.body.appendChild(link)
     link.click()
