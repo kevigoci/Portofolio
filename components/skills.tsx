@@ -56,20 +56,14 @@ export function Skills() {
                   </div>
                   <h3 className="font-semibold text-card-foreground">{category.title}</h3>
                 </div>
-                <div className="space-y-3">
+                <div className="flex flex-wrap gap-2">
                   {category.skills.map((skill) => (
-                    <div key={skill.name} className="space-y-1">
-                      <div className="flex justify-between text-sm">
-                        <span className="text-card-foreground">{skill.name}</span>
-                        <span className="text-muted-foreground">{skill.level}%</span>
-                      </div>
-                      <div className="h-2 bg-muted rounded-full overflow-hidden">
-                        <div
-                          className="h-full bg-primary rounded-full transition-all duration-1000"
-                          style={{ width: `${skill.level}%` }}
-                        />
-                      </div>
-                    </div>
+                    <span
+                      key={skill}
+                      className="px-3 py-1 text-sm bg-primary/10 text-primary rounded-full"
+                    >
+                      {skill}
+                    </span>
                   ))}
                 </div>
               </Card>
