@@ -1,26 +1,26 @@
 import { Card } from "@/components/ui/card"
-import { Code2, Database, Globe, Terminal } from "lucide-react"
+import { Code2, Wrench, Globe, Terminal } from "lucide-react"
 
 const skillCategories = [
   {
     icon: Code2,
-    title: "Primary Language",
-    skills: ["Python"],
-  },
-  {
-    icon: Terminal,
-    title: "Programming Languages",
-    skills: ["React", "JavaScript"],
+    title: "Languages",
+    skills: ["Python", "JavaScript", "TypeScript"],
   },
   {
     icon: Globe,
-    title: "Web Technologies",
-    skills: ["HTML", "CSS"],
+    title: "Web & Frameworks",
+    skills: ["React", "Next.js", "HTML", "CSS", "Tailwind CSS", "Node.js"],
   },
   {
-    icon: Database,
-    title: "Additional Skills",
-    skills: ["Git & Version Control", "Problem Solving", "Agile Development"],
+    icon: Terminal,
+    title: "Python Ecosystem",
+    skills: ["Django", "Flask", "FastAPI", "Pandas", "NumPy", "Selenium", "BeautifulSoup"],
+  },
+  {
+    icon: Wrench,
+    title: "DevOps & Tools",
+    skills: ["Git", "Docker", "Jenkins", "n8n", "PostgreSQL", "REST APIs", "Linux"],
   },
 ]
 
