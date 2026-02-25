@@ -1,5 +1,6 @@
 import { Card } from "@/components/ui/card"
 import { ExternalLink } from "lucide-react"
+import Image from "next/image"
 
 const projects = [
   {
@@ -27,11 +28,12 @@ export function Projects() {
         <div className="grid md:grid-cols-2 gap-8">
           {projects.map((project) => (
             <Card key={project.title} className="overflow-hidden group hover:shadow-xl transition-shadow">
-              <div className="aspect-video overflow-hidden bg-muted">
-                <img
-                  src={project.image || "/placeholder.svg"}
+              <div className="aspect-video overflow-hidden bg-muted relative">
+                <Image
+                  src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="p-6 space-y-4">

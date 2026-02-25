@@ -11,9 +11,8 @@ const skillCategories = [
     icon: Terminal,
     title: "Programming Languages",
     skills: [
-      { name: "Java", level: 85 },
+      { name: "React", level: 90 },
       { name: "JavaScript", level: 90 },
-      { name: "C#", level: 80 },
     ],
   },
   {
